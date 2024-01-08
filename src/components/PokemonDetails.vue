@@ -190,15 +190,6 @@ onMounted(() => {
 }
 
 .loading-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #191b1d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
+  @apply fixed top-0 left-0 w-full h-full bg-[#191b1d] opacity-75 flex justify-center items-center z-[9999];
 }
 </style>
